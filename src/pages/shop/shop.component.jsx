@@ -1,9 +1,9 @@
 import React from "react";
 import { Route } from "react-router-dom";
-import CollectionPage from "../collection/collection.component";
 
 //graphql
 import { default as CollectionsOverview } from "../../components/collections-overview/collections-overview.container";
+import { default as CollectionPage } from "../collection/collection.container";
 
 const ShopPage = ({ match }) => (
 	<div className="shop-page">
